@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+* {	
+  margin: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; 
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+	background-color: rgb(250, 250, 250);
+	height: 100%;
+}
+
+div {
+	text-align: center;
+	padding: 1em 0;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-weight: 300;
+	padding: 0 0 1rem;
+}
+
+#dropbox {
+	width: 100%;
+	height: 100vh; 
+}
+
+.introMsg {
+  white-space: pre;
+}
+
+.introMsg::before {
+	content: "1. Drag and drop or paste your image here \A 2. Click anywhere on the image to retrieve the colour info.";
+}
+
+.uploadMsg::before {
+	content: "Drop to upload.";
+}
+
+.hex {
+	font-size: 2rem;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; 
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp; 
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); 
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  } 
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); 
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+   transform: none; 
+ 	}
+}
