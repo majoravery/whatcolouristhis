@@ -15,4 +15,4 @@ Try it out <a href="http://britskit.github.io/whatcolouristhis/">here</a>.
 Why not?
 
 #### License?
-whatcolouristhis is under the <a href="https://github.com/britskit/whatcolouristhis/blob/master/LICENSE.md">MIT License</a>.
+whatcolouristhis is licensed under the <a href="https://github.com/britskit/whatcolouristhis/blob/master/LICENSE.md">MIT License</a>.
