@@ -25,16 +25,43 @@ h1 {
 }
 
 #dropbox {
+  position: absolute;
 	width: 100%;
 	height: 100vh; 
+  z-index: 9998;
 }
+
+#intro {
+  position: relative;
+  margin: auto;
+  width: 670px;
+  text-align: center;
+}
+
+/*#uploadMsg {
+  position: absolute;
+  margin: 0;
+  padding-top: 35vmin;
+  background-color: rgba(50, 50, 50, 0.4);
+  width: 100vw;
+  height: 100vh;
+  font-size: 50pt;
+  font-weight: bold;
+  opacity: 0.3;
+  color: #fff;
+  z-index: 9999;
+}
+
+#uploadMsg::before {
+  content: "upload";
+}*/
 
 .introMsg {
   white-space: pre;
 }
 
 .introMsg::before {
-	content: "1. Drag and drop or paste your image here \A 2. Click anywhere on the image to retrieve the colour info.";
+	content: "1. Drag and drop or paste your image here \A or click on any of the dummy images \A\A 2. Click anywhere on the image to retrieve the colour info";
 }
 
 .uploadMsg::before {
