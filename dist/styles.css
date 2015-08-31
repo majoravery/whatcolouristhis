@@ -61,7 +61,7 @@ h1 {
 }
 
 .introMsg::before {
-	content: "1. Drag and drop or paste your image here \A or click on any of the dummy images \A\A 2. Click anywhere on the image to retrieve the colour info";
+	content: "1. Drag and drop or paste your image here \A\A 2. Click anywhere on the image to retrieve the colour info";
 }
 
 .uploadMsg::before {
