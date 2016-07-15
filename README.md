@@ -5,7 +5,7 @@ whatcolouristhis is an eyedropper/colour picker written in Node.js. Drag and dro
 
 
 #### Compatibility
-Paste event is not compatible with Safari (yet).
+Works best in Chrome. Firefox does not like custom inputs.
 
 
 #### License
