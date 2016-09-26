@@ -5,8 +5,7 @@ whatcolouristhis is an eyedropper/colour picker written in Node.js. Drag and dro
 
 
 #### Compatibility
-Paste event is not compatible with Safari (yet).
+Works best in Chrome. Firefox does not like custom inputs. Paste event is not compatible with Safari (yet).
 
 
-#### License
-whatcolouristhis is licensed under the <a href="https://github.com/britskit/whatcolouristhis/blob/master/LICENSE.md">MIT License</a>.
+## <a href="https://github.com/heyavery/whatcolouristhis/blob/master/LICENSE.md">MIT License</a>.
